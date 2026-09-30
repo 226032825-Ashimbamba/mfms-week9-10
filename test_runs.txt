@@ -1,0 +1,26 @@
+MFMS TEST RUN EVIDENCE / CHECKLIST
+
+Test 1 – Employee operations
+- Add employee ID 1001, name Maria, salary 18500.50.
+- List employees.
+- Search employee 1001.
+- Employee report should show payroll 18500.50.
+
+Test 2 – Budget operations
+- Add budget ID 2001, description Office Supplies, amount 5000.
+- List budgets.
+- Budget report should show total 5000.00.
+
+Test 3 – Persistence
+- Choose Save text data.
+- Exit the application.
+- Start it again.
+- Choose Load text data.
+- List employees and budgets and verify saved records appear.
+
+Test 4 – Binary persistence
+- Add/load employee records.
+- Choose Save employees as binary.
+- Restart application.
+- Choose Load employees from binary.
+- List employees and verify the records.
